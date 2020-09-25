@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62C68D75251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C68D73251DDE04001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.h */; };
+		62C68D76251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C68D74251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m */; };
+		62C68D77251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C68D74251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m */; };
 		8A1B11A616F2211400BDDD2A /* GBDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1B11A516F2211400BDDD2A /* GBDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1B11E916F22DF200BDDD2A /* GBDeviceInfo_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1B11E716F22DF200BDDD2A /* GBDeviceInfo_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1B11EA16F22DF200BDDD2A /* GBDeviceInfo_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B11E816F22DF200BDDD2A /* GBDeviceInfo_OSX.m */; };
@@ -47,6 +50,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62C68D73251DDE04001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo_iOS+iPhoneSimulator.h"; sourceTree = "<group>"; };
+		62C68D74251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GBDeviceInfo_iOS+iPhoneSimulator.m"; sourceTree = "<group>"; };
 		8A1B118D16F21F2E00BDDD2A /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1B11A516F2211400BDDD2A /* GBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo.h; path = Public/GBDeviceInfo.h; sourceTree = "<group>"; };
 		8A1B11B416F2242500BDDD2A /* GBDeviceInfoTypes_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBDeviceInfoTypes_iOS.h; sourceTree = "<group>"; };
@@ -109,6 +114,8 @@
 		8A1B11A816F221C400BDDD2A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				62C68D73251DDE04001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.h */,
+				62C68D74251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m */,
 				8A1B11B416F2242500BDDD2A /* GBDeviceInfoTypes_iOS.h */,
 				8A38F59B162DA1C100BCF240 /* GBDeviceInfo_iOS.h */,
 				8A38F59D162DA1C100BCF240 /* GBDeviceInfo_iOS.m */,
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3379730224E38C000FECA2C /* GBDeviceInfo-Prefix.pch in Headers */,
+				62C68D75251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.h in Headers */,
 				D337972E224E38B400FECA2C /* GBDeviceInfoTypes_Common.h in Headers */,
 				D337972F224E38B700FECA2C /* GBDeviceInfoInterface.h in Headers */,
 				D337972B224E389200FECA2C /* GBDeviceInfoTypes_iOS.h in Headers */,
@@ -342,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C68D76251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m in Sources */,
 				8A38F59E162DA1C100BCF240 /* GBDeviceInfo_iOS.m in Sources */,
 				8A3F56E71A977C3700B84D6F /* GBDeviceInfo_Common.m in Sources */,
 			);
@@ -351,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C68D77251DDE05001C8911 /* GBDeviceInfo_iOS+iPhoneSimulator.m in Sources */,
 				D337972A224E387F00FECA2C /* GBDeviceInfo_iOS.m in Sources */,
 				D337972C224E38AC00FECA2C /* GBDeviceInfo_Common.m in Sources */,
 			);
