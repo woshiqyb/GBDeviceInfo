@@ -144,6 +144,18 @@
             
             // SE 2
             @[@12, @8]: @[@(GBDeviceModeliPhoneSE2), @"iPhone SE 2", @(GBDeviceDisplay4p7Inch), @326],
+
+            // 12 Mini
+            @[@13, @1]: @[@(GBDeviceModeliPhone12Mini), @"iPhone 12 Mini", @(GBDeviceDisplay5p4Inch), @476],
+            
+            // 12
+            @[@13, @2]: @[@(GBDeviceModeliPhone12), @"iPhone 12", @(GBDeviceDisplay6p1Inch), @460],
+            
+            // 12 Pro
+            @[@13, @3]: @[@(GBDeviceModeliPhone12Pro), @"iPhone 12 Pro", @(GBDeviceDisplay6p1Inch), @460],
+            
+            // 12 Pro Max
+            @[@13, @4]: @[@(GBDeviceModeliPhone12ProMax), @"iPhone 12 Pro Max", @(GBDeviceDisplay6p7Inch), @458],
         },
         @"iPad": @{
             // 1
