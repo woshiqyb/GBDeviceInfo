@@ -26,7 +26,7 @@ let package = Package(
             name: "GBDeviceInfo",
             dependencies: [],
 			path: "GBDeviceInfo",
-			sources: ["GBDeviceInfo_Common.m", "GBDeviceInfo_iOS.m","GBDeviceInfo_OSX.m"],
+			sources: ["GBDeviceInfo_Common.m", "GBDeviceInfo_iOS.m", "GBDeviceInfo_iOS+iPhoneSimulator.m", "GBDeviceInfo_OSX.m"],
 			publicHeadersPath: ""
 		),
 		
